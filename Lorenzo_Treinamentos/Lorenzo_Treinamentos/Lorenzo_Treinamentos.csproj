@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeAnalysis.Analyzers.3.3.3\build\Microsoft.CodeAnalysis.Analyzers.props" Condition="Exists('..\packages\Microsoft.CodeAnalysis.Analyzers.3.3.3\build\Microsoft.CodeAnalysis.Analyzers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F8A3F40D-CFA8-4B60-A81B-077E59F72038}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Lorenzo_Treinamentos</RootNamespace>
+    <AssemblyName>Lorenzo_Treinamentos</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeAnalysis, Version=4.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeAnalysis.Common.4.2.0\lib\netstandard2.0\Microsoft.CodeAnalysis.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.5.0.0\lib\net461\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Metadata, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.Metadata.5.0.0\lib\net461\System.Reflection.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.CodePages, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encoding.CodePages.6.0.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aulas\Aula1_26-07\CalculadoraPag.cs" />
+    <Compile Include="Aulas\Aula1_26-07\Calculo.cs" />
+    <Compile Include="Aulas\Aula1_26-07\Funcionario.cs" />
+    <Compile Include="Aulas\Aula2_02-08\TvServico.cs" />
+    <Compile Include="Aulas\Aula2_02-08\EnumTv.cs" />
+    <Compile Include="Aulas\Aula2_02-08\FuncionarioService.cs" />
+    <Compile Include="Aulas\Aula2_02-08\Televisao.cs" />
+    <Compile Include="Aulas\Aula3_09-08\AnalistaPagamento.cs" />
+    <Compile Include="Aulas\Aula3_09-08\CalculoSalario.cs" />
+    <Compile Include="Aulas\Aula3_09-08\DiretorPagamento.cs" />
+    <Compile Include="Aulas\Aula3_09-08\ProcessaPagamento.cs" />
+    <Compile Include="Aulas\Aula3_09-08\Pagamento.cs" />
+    <Compile Include="Aulas\Aula3_09-08\ProfessorPagamento.cs" />
+    <Compile Include="Aulas\Aula3_09-08\ProgramadorPagamento.cs" />
+    <Compile Include="Aulas\Aula3_09-08\Usuario.cs" />
+    <Compile Include="Aulas\Aula3_09-08\UsuarioService.cs" />
+    <Compile Include="Aulas\Aula4_16-08\Exercicio 2\Calculadora.cs" />
+    <Compile Include="Aulas\Aula4_16-08\Exercicio 2\Log.cs" />
+    <Compile Include="Aulas\Aula4_16-08\Exercicio 2\LogNuvem.cs" />
+    <Compile Include="Aulas\Aula4_16-08\Exercicio 2\LogLocal.cs" />
+    <Compile Include="Aulas\Aula4_16-08\IBancoDados.cs" />
+    <Compile Include="Aulas\Aula4_16-08\Celular.cs" />
+    <Compile Include="Aulas\Aula4_16-08\Iphone.cs" />
+    <Compile Include="Aulas\Aula4_16-08\LocalBancoDados.cs" />
+    <Compile Include="Aulas\Aula4_16-08\MySQLBancoDados.cs" />
+    <Compile Include="Aulas\Aula4_16-08\Nokia5120.cs" />
+    <Compile Include="Aulas\Aula4_16-08\Passagem.cs" />
+    <Compile Include="Aulas\Aula4_16-08\Sistema.cs" />
+    <Compile Include="Aulas\Aula4_16-08\SmartPhone.cs" />
+    <Compile Include="Aulas\Aula4_16-08\SyBaseBancoDados.cs" />
+    <Compile Include="Aulas\Aula7_06-09 - Fabrica_Builder\Configuracao.cs" />
+    <Compile Include="Aulas\Aula7_06-09 - Fabrica_Builder\EnumJanela.cs" />
+    <Compile Include="Aulas\Aula7_06-09 - Fabrica_Builder\Exercicios\Cliente.cs" />
+    <Compile Include="Aulas\Aula7_06-09 - Fabrica_Builder\Exercicios\ConectaBanco.cs" />
+    <Compile Include="Aulas\Aula7_06-09 - Fabrica_Builder\Exercicios\ExercicioBuilder.cs" />
+    <Compile Include="Aulas\Aula7_06-09 - Fabrica_Builder\Exercicios\Item.cs" />
+    <Compile Include="Aulas\Aula7_06-09 - Fabrica_Builder\FabricaJanelas.cs" />
+    <Compile Include="Aulas\Aula7_06-09 - Fabrica_Builder\IJanelasGraficas.cs" />
+    <Compile Include="Aulas\Aula7_06-09 - Fabrica_Builder\JanelaForms.cs" />
+    <Compile Include="Aulas\Aula7_06-09 - Fabrica_Builder\JanelaHTML.cs" />
+    <Compile Include="Aulas\Aula8_13-09 - Facede_Composite\Composite\NaRua.cs" />
+    <Compile Include="Aulas\Aula8_13-09 - Facede_Composite\Composite\Online.cs" />
+    <Compile Include="Aulas\Aula8_13-09 - Facede_Composite\Composite\TotalCompras.cs" />
+    <Compile Include="Aulas\Aula8_13-09 - Facede_Composite\Composite\TotalComprasComposite.cs" />
+    <Compile Include="Aulas\Aula8_13-09 - Facede_Composite\Exercicios\1 - com Builder\NotaFiscalBuilder.cs" />
+    <Compile Include="Aulas\Aula8_13-09 - Facede_Composite\Exercicios\1 - com Builder\NotaFiscal.cs" />
+    <Compile Include="Aulas\Aula8_13-09 - Facede_Composite\Exercicios\1 - com Composite\IDadosLinha.cs" />
+    <Compile Include="Aulas\Aula8_13-09 - Facede_Composite\Exercicios\1 - com Composite\ValorNota.cs" />
+    <Compile Include="Aulas\Aula8_13-09 - Facede_Composite\Exercicios\1 - com Composite\ItensNota.cs" />
+    <Compile Include="Aulas\Aula8_13-09 - Facede_Composite\Exercicios\1 - com Composite\NumeroNota.cs" />
+    <Compile Include="Aulas\Aula8_13-09 - Facede_Composite\Exercicios\1 - com Composite\NotaFiscalComposite.cs" />
+    <Compile Include="Aulas\Aula8_13-09 - Facede_Composite\Facede\FacedePedido.cs" />
+    <Compile Include="Aulas\Aula8_13-09 - Facede_Composite\Facede\ModuloEstoque.cs" />
+    <Compile Include="Aulas\Aula8_13-09 - Facede_Composite\Facede\ModuloFinanceiro.cs" />
+    <Compile Include="Aulas\Aula8_13-09 - Facede_Composite\Facede\ModuloPosVenda.cs" />
+    <Compile Include="Aulas\Aula8_13-09 - Facede_Composite\Facede\Pedido.cs" />
+    <Compile Include="Aulas\Aula9_21-09 - Strategy\Exercicios\CreditoStrategy.cs" />
+    <Compile Include="Aulas\Aula9_21-09 - Strategy\Exercicios\DebitoStrategy.cs" />
+    <Compile Include="Aulas\Aula9_21-09 - Strategy\Exercicios\IMeiosPagamentos.cs" />
+    <Compile Include="Aulas\Aula9_21-09 - Strategy\Exercicios\MeiosPagamentoContext.cs" />
+    <Compile Include="Aulas\Aula9_21-09 - Strategy\Exercicios\PixStrategy.cs" />
+    <Compile Include="Aulas\Aula9_21-09 - Strategy\Observer\DevListener.cs" />
+    <Compile Include="Aulas\Aula9_21-09 - Strategy\Observer\IListenerTelefone.cs" />
+    <Compile Include="Aulas\Aula9_21-09 - Strategy\Observer\ManagementListenerTelefone.cs" />
+    <Compile Include="Aulas\Aula9_21-09 - Strategy\Observer\SecretariaListener.cs" />
+    <Compile Include="Aulas\Aula9_21-09 - Strategy\Observer\Telefone.cs" />
+    <Compile Include="Aulas\Aula9_21-09 - Strategy\Strategy\ICMSStrategy.cs" />
+    <Compile Include="Aulas\Aula9_21-09 - Strategy\Strategy\IImpostos.cs" />
+    <Compile Include="Aulas\Aula9_21-09 - Strategy\Strategy\ImpostoContext.cs" />
+    <Compile Include="Aulas\Aula9_21-09 - Strategy\Strategy\IPIStrategy.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Aulas\Aula8_13-09 - Facede_Composite\Exercicios\2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.3.3.3\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
+    <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.3.3.3\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este projeto faz referência a pacotes do NuGet que não estão presentes neste computador. Use a Restauração de Pacotes do NuGet para baixá-los.  Para obter mais informações, consulte http://go.microsoft.com/fwlink/?LinkID=322105. O arquivo ausente é {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeAnalysis.Analyzers.3.3.3\build\Microsoft.CodeAnalysis.Analyzers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeAnalysis.Analyzers.3.3.3\build\Microsoft.CodeAnalysis.Analyzers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeAnalysis.Analyzers.3.3.3\build\Microsoft.CodeAnalysis.Analyzers.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeAnalysis.Analyzers.3.3.3\build\Microsoft.CodeAnalysis.Analyzers.targets'))" />
+  </Target>
+  <Import Project="..\packages\Microsoft.CodeAnalysis.Analyzers.3.3.3\build\Microsoft.CodeAnalysis.Analyzers.targets" Condition="Exists('..\packages\Microsoft.CodeAnalysis.Analyzers.3.3.3\build\Microsoft.CodeAnalysis.Analyzers.targets')" />
+</Project>

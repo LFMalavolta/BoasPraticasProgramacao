@@ -1,0 +1,28 @@
+C:\Projetos Aulas Rodosoft\Lorenzo\Exercicio5_BBP-Lorenzo\bin\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.exe
+C:\Projetos Aulas Rodosoft\Lorenzo\Exercicio5_BBP-Lorenzo\bin\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.deps.json
+C:\Projetos Aulas Rodosoft\Lorenzo\Exercicio5_BBP-Lorenzo\bin\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.runtimeconfig.json
+C:\Projetos Aulas Rodosoft\Lorenzo\Exercicio5_BBP-Lorenzo\bin\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.runtimeconfig.dev.json
+C:\Projetos Aulas Rodosoft\Lorenzo\Exercicio5_BBP-Lorenzo\bin\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.dll
+C:\Projetos Aulas Rodosoft\Lorenzo\Exercicio5_BBP-Lorenzo\bin\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.pdb
+C:\Projetos Aulas Rodosoft\Lorenzo\Exercicio5_BBP-Lorenzo\obj\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.csproj.AssemblyReference.cache
+C:\Projetos Aulas Rodosoft\Lorenzo\Exercicio5_BBP-Lorenzo\obj\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos Aulas Rodosoft\Lorenzo\Exercicio5_BBP-Lorenzo\obj\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.AssemblyInfoInputs.cache
+C:\Projetos Aulas Rodosoft\Lorenzo\Exercicio5_BBP-Lorenzo\obj\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.AssemblyInfo.cs
+C:\Projetos Aulas Rodosoft\Lorenzo\Exercicio5_BBP-Lorenzo\obj\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.csproj.CoreCompileInputs.cache
+C:\Projetos Aulas Rodosoft\Lorenzo\Exercicio5_BBP-Lorenzo\obj\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.dll
+C:\Projetos Aulas Rodosoft\Lorenzo\Exercicio5_BBP-Lorenzo\obj\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.pdb
+C:\Projetos Aulas Rodosoft\Lorenzo\Exercicio5_BBP-Lorenzo\obj\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.genruntimeconfig.cache
+D:\Aulas Rodosoft\boas-praticas-programacao\Exercicio5_BBP-Lorenzo\bin\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.exe
+D:\Aulas Rodosoft\boas-praticas-programacao\Exercicio5_BBP-Lorenzo\bin\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.deps.json
+D:\Aulas Rodosoft\boas-praticas-programacao\Exercicio5_BBP-Lorenzo\bin\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.runtimeconfig.json
+D:\Aulas Rodosoft\boas-praticas-programacao\Exercicio5_BBP-Lorenzo\bin\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.runtimeconfig.dev.json
+D:\Aulas Rodosoft\boas-praticas-programacao\Exercicio5_BBP-Lorenzo\bin\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.dll
+D:\Aulas Rodosoft\boas-praticas-programacao\Exercicio5_BBP-Lorenzo\bin\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.pdb
+D:\Aulas Rodosoft\boas-praticas-programacao\Exercicio5_BBP-Lorenzo\obj\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.csproj.AssemblyReference.cache
+D:\Aulas Rodosoft\boas-praticas-programacao\Exercicio5_BBP-Lorenzo\obj\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aulas Rodosoft\boas-praticas-programacao\Exercicio5_BBP-Lorenzo\obj\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.AssemblyInfoInputs.cache
+D:\Aulas Rodosoft\boas-praticas-programacao\Exercicio5_BBP-Lorenzo\obj\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.AssemblyInfo.cs
+D:\Aulas Rodosoft\boas-praticas-programacao\Exercicio5_BBP-Lorenzo\obj\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.csproj.CoreCompileInputs.cache
+D:\Aulas Rodosoft\boas-praticas-programacao\Exercicio5_BBP-Lorenzo\obj\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.dll
+D:\Aulas Rodosoft\boas-praticas-programacao\Exercicio5_BBP-Lorenzo\obj\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.pdb
+D:\Aulas Rodosoft\boas-praticas-programacao\Exercicio5_BBP-Lorenzo\obj\Debug\netcoreapp3.1\Exercicio5_BBP-Lorenzo.genruntimeconfig.cache
