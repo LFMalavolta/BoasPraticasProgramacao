@@ -8,9 +8,10 @@ namespace Exercicio_Aula10.Interfaces.Passagens
 {
     public class PassagemImpressa : IPassagens
     {
-        public void SelecionaPassagem()
+        public string SelecionaPassagem()
         {
-            Console.WriteLine("Passagem Digital selecionada");
+            Console.WriteLine("Passagem Impressa selecionada....");
+            return "Passagem impressa";
         }
     }
 }

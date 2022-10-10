@@ -8,6 +8,6 @@ namespace Exercicio_Aula10
 {
     public interface IPassagens
     {
-        void SelecionaPassagem();
+        string SelecionaPassagem();
     }
 }
