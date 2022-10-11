@@ -43,17 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Passagem\PassagemBussines.cs" />
+    <Compile Include="Passagem\IOperacoesPassagens.cs" />
+    <Compile Include="Passagem\OperacoesPassagensImpl.cs" />
     <Compile Include="Descontos\DescontoBussines.cs" />
     <Compile Include="Descontos\Descontos.cs" />
     <Compile Include="Enums\EnumPassagens.cs" />
     <Compile Include="Menu\MenuBussines.cs" />
     <Compile Include="Passagem\FactoryPassagens.cs" />
     <Compile Include="Passagem\IPassagens.cs" />
+    <Compile Include="Passagem\OperacoesPassagensProxy.cs" />
     <Compile Include="Passagem\Passagem.cs" />
     <Compile Include="Passagem\PassagemBuilder.cs" />
     <Compile Include="Passagem\PassagemImpressa.cs" />
     <Compile Include="Passagem\PassagemDigital.cs" />
+    <Compile Include="Passagem\PassagemVazia.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Passagem\ValidaPassagem.cs" />

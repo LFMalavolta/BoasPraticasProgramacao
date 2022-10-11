@@ -192,22 +192,31 @@ namespace Lorenzo_Treinamentos
             //valorTotal = meiosPagamento.CalcularValorMeioPagamento("PIX", "Lorenzo3", 250);
             //Console.WriteLine($"PIX: {valorTotal}");
 
-            //Observer Exemplo
-            DevListener devListener = new DevListener();
-            SecretariaListener secretariaListener = new SecretariaListener();
-            Telefone telefone = new Telefone();
-            telefone.AdicionarListener(devListener);
-            telefone.AdicionarListener(secretariaListener);
-            while (true)
-            {
-                Console.WriteLine("Digite a mensagem para tocar o telefone:");
-                string mensagameTelefone = Console.ReadLine();
-                if (mensagameTelefone.ToLower() == "sair")
-                {
-                    break;
-                }
-                telefone.mensagem = mensagameTelefone;
-            }
+            ////Observer Exemplo
+            //DevListener devListener = new DevListener();
+            //SecretariaListener secretariaListener = new SecretariaListener();
+            //Telefone telefone = new Telefone();
+            //telefone.AdicionarListener(devListener);
+            //telefone.AdicionarListener(secretariaListener);
+            //while (true)
+            //{
+            //    Console.WriteLine("Digite a mensagem para tocar o telefone:");
+            //    string mensagameTelefone = Console.ReadLine();
+            //    if (mensagameTelefone.ToLower() == "sair")
+            //    {
+            //        break;
+            //    }
+            //    telefone.mensagem = mensagameTelefone;
+            //}
+
+            #endregion
+
+            #region AULA 12
+            //Proxy
+            BancoDadosOperacoesImpl bancoDadosOperacoesImpl = new BancoDadosOperacoesImpl();
+            BancoDadosOperacoesProxy bancoDadosOperacoesProxy = new BancoDadosOperacoesProxy(bancoDadosOperacoesImpl);
+
+            bancoDadosOperacoesProxy.Atualizar();
 
             #endregion
 

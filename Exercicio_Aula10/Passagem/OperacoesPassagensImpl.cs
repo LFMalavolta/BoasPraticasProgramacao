@@ -5,11 +5,11 @@ using System.Collections.Generic;
 
 namespace Exercicio_Aula10
 {
-    public class PassagemBussines
+    public class OperacoesPassagensImpl : IOperacoesPassagens
     {
-        private List<Passagem> listaPassagens = new List<Passagem>();
+        public List<Passagem> listaPassagens = new List<Passagem>();
 
-        internal Passagem MontarPassagem()
+        public Passagem MontarPassagem()
         {
             Console.WriteLine("Selecione o tipo de passagem:");
             Console.WriteLine("1- Digital   2- Impressa");

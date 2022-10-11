@@ -12,3 +12,10 @@ D:\Aulas Rodosoft\GitHub\BoasPraticasProgramacao\Exercicio_Aula10\obj\Debug\Exer
 D:\Aulas Rodosoft\GitHub\BoasPraticasProgramacao\Exercicio_Aula10\obj\Debug\Exercicio_Aula10.csproj.CoreCompileInputs.cache
 D:\Aulas Rodosoft\GitHub\BoasPraticasProgramacao\Exercicio_Aula10\obj\Debug\Exercicio_Aula10.exe
 D:\Aulas Rodosoft\GitHub\BoasPraticasProgramacao\Exercicio_Aula10\obj\Debug\Exercicio_Aula10.pdb
+C:\Projetos Aulas Rodosoft\Lorenzo\GitHub\BoasPraticasProgramacao\Exercicio_Aula10\bin\Debug\Exercicio_Aula10.exe.config
+C:\Projetos Aulas Rodosoft\Lorenzo\GitHub\BoasPraticasProgramacao\Exercicio_Aula10\bin\Debug\Exercicio_Aula10.exe
+C:\Projetos Aulas Rodosoft\Lorenzo\GitHub\BoasPraticasProgramacao\Exercicio_Aula10\bin\Debug\Exercicio_Aula10.pdb
+C:\Projetos Aulas Rodosoft\Lorenzo\GitHub\BoasPraticasProgramacao\Exercicio_Aula10\obj\Debug\Exercicio_Aula10.csproj.AssemblyReference.cache
+C:\Projetos Aulas Rodosoft\Lorenzo\GitHub\BoasPraticasProgramacao\Exercicio_Aula10\obj\Debug\Exercicio_Aula10.csproj.CoreCompileInputs.cache
+C:\Projetos Aulas Rodosoft\Lorenzo\GitHub\BoasPraticasProgramacao\Exercicio_Aula10\obj\Debug\Exercicio_Aula10.exe
+C:\Projetos Aulas Rodosoft\Lorenzo\GitHub\BoasPraticasProgramacao\Exercicio_Aula10\obj\Debug\Exercicio_Aula10.pdb

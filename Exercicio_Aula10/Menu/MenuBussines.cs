@@ -7,15 +7,18 @@ namespace Exercicio_Aula10
     {
         internal void InicializarMenu()
         {
-            PassagemBussines passagemBussines = new PassagemBussines();
+            OperacoesPassagensImpl operacoesPassagemImpl = new OperacoesPassagensImpl();
+            OperacoesPassagensProxy operacoesPassagensProxy = new OperacoesPassagensProxy(operacoesPassagemImpl);
+
             Console.WriteLine("Bem vindo ao painel Rodosoft!");
             while (true)
             {
-                Console.WriteLine("Escolha sua opção:");
-                Console.WriteLine("1- Compra de Passagens    2- Listar passagens compradas     0- Sair");
+                Console.WriteLine("\nEscolha sua opção:");
+                Console.WriteLine("1- Compra de Passagens    2- Listar passagens compradas     3- Lista Logs     0- Sair");
                 string opcaoMenu = Console.ReadLine();
-                if (opcaoMenu == "1") passagemBussines.ComprarPassagem();
-                if (opcaoMenu == "2") passagemBussines.ListarPassagens();
+                if (opcaoMenu == "1") operacoesPassagensProxy.ComprarPassagem();
+                if (opcaoMenu == "2") operacoesPassagensProxy.ListarPassagens();
+                if (opcaoMenu == "3") operacoesPassagensProxy.ListarLogs();
                 if (opcaoMenu == "0") break;
             }           
         }       
