@@ -1,12 +1,15 @@
 ﻿using Exercicio_Aula10.Enums;
 using Exercicio_Aula10.Factorys;
 using System;
+using System.Collections.Generic;
 
 namespace Exercicio_Aula10
 {
     public class PassagemBussines
     {
-        internal Passagem montaPassagem()
+        private List<Passagem> listaPassagens = new List<Passagem>();
+
+        internal Passagem MontarPassagem()
         {
             Console.WriteLine("Selecione o tipo de passagem:");
             Console.WriteLine("1- Digital   2- Impressa");
@@ -35,6 +38,33 @@ namespace Exercicio_Aula10
                                                 .montaPassagem();
             Console.WriteLine(passagemBuilder);
             return passagemBuilder;
+        }
+
+        public void ListarPassagens()
+        {
+            bool eListaPassagemVazia = listaPassagens.Count < 1;
+            if (eListaPassagemVazia)
+            {
+                Console.WriteLine("Nenhuma passagem foi comprada\n");
+                return;
+            }
+            listaPassagens.ForEach(Console.WriteLine);
+        }
+
+        public void ComprarPassagem()
+        {
+            DescontoBussines descontoBussines = new DescontoBussines();
+            try
+            {
+                Passagem novaPassagem = MontarPassagem();
+                descontoBussines.CalcularDescontos(novaPassagem);
+                ValidaPassagem validaPassagem = new ValidaPassagem(novaPassagem);
+                listaPassagens.Add(novaPassagem);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }

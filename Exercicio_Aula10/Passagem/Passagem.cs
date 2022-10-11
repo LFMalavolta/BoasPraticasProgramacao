@@ -19,7 +19,7 @@ namespace Exercicio_Aula10
         public override string ToString()
         {
             return $"\nPassagem-------------------\nEmbarque em: {LocalEmbarque}\nDesembarque em: {LocalDesembarque}\n" +
-                $"Valor: {PrecoPassagem}\nPoltrona nº{NumeroPoltronas}\n\nPossui seguro: {Seguro}" +
+                $"Valor: R${PrecoPassagem}\nPoltrona nº{NumeroPoltronas}\n\nPossui seguro: {Seguro}" +
                 $"\nPoltrona especial: {PoltronaEspecial}\n---------------------------";
         }
 

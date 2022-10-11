@@ -4,8 +4,7 @@ namespace Exercicio_Aula10
 {
     internal class DescontoBussines
     {
-
-        internal void calculaDescontos(Passagem novaPassagem)
+        internal void CalcularDescontos(Passagem novaPassagem)
         {
             try
             {
